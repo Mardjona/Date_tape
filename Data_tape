@@ -1,0 +1,17 @@
+#include <stdint.h>
+#include <stdbool.h>
+
+   int main(int argc, char** argv) {
+
+    printf("sizeof int8_t: %llu\n", sizeof(int8_t));
+    printf("sizeof uint8_t: %llu\n", sizeof(uint8_t));
+    printf("sizeof int16_t: %llu\n", sizeof(int16_t));
+    printf("sizeof uint16_t: %llu\n", sizeof(uint16_t));
+    printf("sizeof int32_t: %llu\n", sizeof(int32_t));
+    printf("sizeof uint32_t: %llu\n", sizeof(uint32_t));
+    printf("sizeof int64_t: %llu\n", sizeof(int64_t));
+    printf("sizeof uint64_t: %llu\n", sizeof(uint64_t));
+    printf("sizeof float: %llu\n", sizeof(float));
+    printf("sizeof double: %llu\n", sizeof(double));
+    return 0;
+}
